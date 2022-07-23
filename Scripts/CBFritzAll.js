@@ -48073,7 +48073,7 @@ CB.V10y = function() {
                 void 0 === g && (g = e[0]);
                 c = b[f];
                 1 < c.length && (g = window.escape(g),
-                g = " background-image: url( " + CB.V10z() + "media/flags/flags16/" + g + ".png ) !important;",
+                g = " background-image: url( " + CB.V10z() + "Media/Flags/Flags16/" + g + ".png ) !important;",
                 CB.V110.V111(".cls-" + c, g + "background-repeat:no-repeat; background-position:center center;"))
             }
         }
@@ -62437,8 +62437,8 @@ CB.EngineInstance = function() {
     }
     ;
     b.prototype.V1nr = function(d) {
-        var c = "/common/chess/engine/df14/df14AjaxData.js";
-        V3ir.canRunWebAssembly() && !CB.Vq.V37() && (c = "/common/chess/engine/webasm/fritzajax3.js");
+        var c = "/Common/Chess/Engine/df14/df14AjaxData.js";
+        V3ir.canRunWebAssembly() && !CB.Vq.V37() && (c = "/Common/Chess/Engine/webasm/fritzajax3.js");
         this.url = c;
         $.ajax({
             url: c,
@@ -85402,10 +85402,10 @@ CB.V3a0 = {
     iconPath: "play",
     getEngineUrl: function() {
         return V3ir.canRunWebAssembly() ? (CB.EngineInstance.V1na = !0,
-        ["/common/chess/engine/webasm/fritzajax3.js"]) : ["/Common/Chess/Engine/df14/df14.js"]
+        ["/Common/Chess/Engine/webasm/fritzajax3.js"]) : ["/Common/Chess/Engine/df14/df14.js"]
     },
     getExternalCommonPath: function() {
-        return CB.Vq.Vr() ? "file://Common/" : "/common/"
+        return CB.Vq.Vr() ? "file://Common/" : "/Common/"
     },
     getRibbonPath: function() {
         return CB.V10z() + "Media/Ribbons/"
@@ -85464,7 +85464,7 @@ CB.V3a0 = {
     jqxTheme: "chessbase",
     defaultFont: "Roboto, sans serif",
     defaultCondensedFont: "Roboto Condensed, Arial Narrow, sans serif",
-    V3a5: CB.V10z() + "media/chess/OrangeBrighterSoftBacklightLessSatur.jpg",
+    V3a5: CB.V10z() + "Media/Chess/OrangeBrighterSoftBacklightLessSatur.jpg",
     V3a6: "",
     clrActiveClock: new CB.Color(220,250,190),
     V3a7: "hsla( 240, 20%, 10%, 1.0 )"
@@ -85474,7 +85474,7 @@ CB.V3a8 = ObjUtil.copyTo(CB.V3a0, {
     loginWebUrl: "http://account.chessbase.com",
     getEngineUrl: function() {
         return V3ir.canRunWebAssembly() ? (CB.EngineInstance.V1na = !0,
-        ["/common/chess/engine/webasm/fritzajax3.js"]) : ["/Common/Chess/Engine/df14/df14.js"]
+        ["/Common/Chess/Engine/webasm/fritzajax3.js"]) : ["/Common/Chess/Engine/df14/df14.js"]
     },
     getPlaychessUris: function() {
         return CB.Vq.V11z() ? ["wss://playserver.chessbase.com:443"] : ["ws://playserver.chessbase.com:7000"]
@@ -85513,7 +85513,7 @@ CB.ChessApp = function() {
         void 0 === this.config && (this.config = CB.V3a8);
         this.mediaPath = CB.V10z() + "Media/";
         this.mediaPathChess = this.mediaPath + "Chess/";
-        this.mediaPathFlags = "/common/media/Flags/";
+        this.mediaPathFlags = "/Common/Media/Flags/";
         this.minFPS = 16;
         document.onmousemove = this.V3a9.bind(this);
         document.onkeypress = this.V3a9.bind(this);
@@ -86033,7 +86033,7 @@ CB.ChessApp = function() {
     ;
     e.prototype.V3be = function(d) {
         CB.V10z = function() {
-            return CB.Vq.Vr() ? "Common/" : "/common/"
+            return CB.Vq.Vr() ? "Common/" : "/Common/"
         }
         ;
         this.config.externalCommonPath = !0;
@@ -87666,7 +87666,7 @@ CB.V3e5 = function() {
         if (this.notaElement) {
             if (c) {
                 var h = f === CB.V295.BLACK || f === CB.V295.V2b2;
-                f = h ? "/common/media/ribbons/Black32.png" : "/common/media/ribbons/White32.png";
+                f = h ? "/Common/Media/Ribbons/Black32.png" : "/Common/Media/Ribbons/White32.png";
                 h = h ? lm.BLACK : lm.WHITE;
                 var k = lm.MY_MOVES_FOR + "  " + h;
                 g && (Array.isArray(g) && 1 < g.length ? (g[1] += " - " + h,
@@ -89746,7 +89746,7 @@ CB.FritzPluginManager = function() {
     }
     var b = function() {
         this.V3cb = ".cbfritz";
-        this.V3a5 = CB.V10z() + "media/chess/OrangeBrighterSoftBacklightLessSatur.jpg";
+        this.V3a5 = CB.V10z() + "Media/Chess/OrangeBrighterSoftBacklightLessSatur.jpg";
         b.superClass.call(this);
         this.init();
         this.recycled = [];
