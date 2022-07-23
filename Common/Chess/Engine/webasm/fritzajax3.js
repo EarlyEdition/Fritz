@@ -1014,7 +1014,7 @@ var I = null;
     }
     Module.wasmJSMethod = Module.wasmJSMethod || "native-wasm";
     var e = Module.wasmTextFile || "Fritz.wast"
-      , f = Module.wasmBinaryFile || "http://127.0.0.1/common/chess/engine/webasm/Fritz3.wasm"
+      , f = Module.wasmBinaryFile || "http://127.0.0.1/Common/Chess/Engine/webasm/Fritz3.wasm"
       , g = Module.asmjsCodeFile || "Fritz.temp.asm.js";
     "function" === typeof Module.locateFile && (e = Module.locateFile(e),
     f = Module.locateFile(f),
