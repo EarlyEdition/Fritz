@@ -9481,32 +9481,32 @@ div.board-toolbar[data-cnt="8"] div.brd-btn
 
 .repLevelEasy
 {
-	background-image: url( /common/media/Ribbons/Openings/Easy24.png);
+	background-image: url( /Common/Media/Ribbons/Openings/Easy24.png);
 }
 
 .repLevelClub
 {
-	background-image: url( /common/media/Ribbons/Openings/Club24.png);
+	background-image: url( /Common/Media/Ribbons/Openings/Club24.png);
 }
 
 .repLevelTournament
 {
-	background-image: url( /common/media/Ribbons/Openings/Tournament24.png);
+	background-image: url( /Common/Media/Ribbons/Openings/Tournament24.png);
 }
 
 .repLevelProfessional
 {
-	background-image: url( /common/media/Ribbons/Openings/Professional24.png);
+	background-image: url( /Common/Media/Ribbons/Openings/Professional24.png);
 }
 
 .repLevelMyMoves
 {
-	background-image: url( /common/media/Ribbons/MyMove24.png);
+	background-image: url( /Common/Media/Ribbons/MyMove24.png);
 }
 
 .repLevelFashion
 {
-	background-image: url( /common/media/Ribbons/Fashion24.png);
+	background-image: url( /Common/Media/Ribbons/Fashion24.png);
 }
 
 
@@ -12152,7 +12152,7 @@ body
    min-height: 30px;
    padding: 4px;
    /*background-color: hsla( 240, 50%, 94%, 0.4 );*/
-   background-image: url('/common/media/chess/notapaper.jpg') !important;
+   background-image: url('/Common/Media/Chess/notapaper.jpg') !important;
 }
 
 .engOutContainerPlay
@@ -12727,7 +12727,7 @@ body
 .engine-info-text
 {
    font-size: 12px;
-   background-image: url('/common/media/chess/notapaper.jpg') !important;
+   background-image: url('/Common/Media/Chess/notapaper.jpg') !important;
 }
 
 @media screen and (min-height:700px)
@@ -12898,7 +12898,7 @@ span.cbmove
    padding-left:8px;
    padding-right:8px;
    padding-top: 10px;
-   background-image: url('/common/media/chess/notapaper.jpg') !important;
+   background-image: url('/Common/Media/Chess/notapaper.jpg') !important;
    /*line-height: 1.25em;*/
 }
 
@@ -12908,7 +12908,7 @@ span.cbmove
    {
       /* box-shadow: 4px 8px 12px -12px hsl(0deg 0% 0% / 80%) inset; */
       /*background-image: linear-gradient( to right, hsla( 40, 15%, 97.5%, 1.0 ), hsla( 40, 10%, 99%, 1.0 ) 30% ) !important;*/
-      background-image:url('/common/media/chess/notapaper.jpg')!important;
+      background-image:url('/Common/Media/Chess/notapaper.jpg')!important;
       /*line-height: 1.55em;*/
    }
    .nota-container
