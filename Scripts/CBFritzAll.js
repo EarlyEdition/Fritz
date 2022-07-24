@@ -42715,7 +42715,7 @@ CB.V89 = function() {
             if (!this.V8i)
                 if (this.V8j)
                     CB.V3("InErrorHandler");
-                else if(once) {
+                else if(once > 0) {
                     this.socket && this.socket.close();
                     this.socket = new WebSocket(this.wsUri);
                     var b = this;
