@@ -85424,19 +85424,19 @@ CB.V3a0 = {
         return CB.Vq.V11z() ? ["wss://dbserver.chessbase.com:443"] : ["ws://dbserver.chessbase.com:7000"]
     },
     getCloudServerUris: function() {
-        return CB.Vq.V11z() ? ["wss://cloudserver.chessbase.com:6008"] : ["ws://cloudserver.chessbase.com:7000"]
+    //    return CB.Vq.V11z() ? ["wss://cloudserver.chessbase.com:6008"] : ["ws://cloudserver.chessbase.com:7000"]
     },
     getMyMovesServerUris: function() {
-        return ["wss://mymovesserver.chessbase.com:443"]
+    //    return ["wss://mymovesserver.chessbase.com:443"]
     },
     getTrainingUris: function() {
         return CB.Vq.V11z() ? ["wss://trainingserver.chessbase.com:443"] : ["ws://trainingserver.chessbase.com:7000", "wss://trainingserver.chessbase.com:6008"]
     },
     getPlBridgeUris: function() {
-        return CB.Vq.V11z() ? ["wss://pbridge.chessbase.com:443"] : ["ws://pbridge.chessbase.com:7000"]
+    //    return CB.Vq.V11z() ? ["wss://pbridge.chessbase.com:443"] : ["ws://pbridge.chessbase.com:7000"]
     },
     getTbBridgeUris: function() {
-        return CB.Vq.V11z() ? ["wss://tbridge.chessbase.com:443", "wss://tbridge2.chessbase.com:443"] : ["ws://tbridge2.chessbase.com:7000", "ws://tbridge.chessbase.com:7000"]
+    //    return CB.Vq.V11z() ? ["wss://tbridge.chessbase.com:443", "wss://tbridge2.chessbase.com:443"] : ["ws://tbridge2.chessbase.com:7000", "ws://tbridge.chessbase.com:7000"]
     },
     getAccountUris: function() {
         return CB.Vq.V11z() ? ["https://users.chessbase.com", "https://usersback.chessbase.com"] : ["http://users.chessbase.com", "http://usersback.chessbase.com"]
@@ -85489,7 +85489,7 @@ CB.V3a8 = ObjUtil.copyTo(CB.V3a0, {
         return CB.Vq.V11z() ? ["wss://dbserver.chessbase.com:443"] : ["ws://dbserver.chessbase.com:7000"]
     },
     getCloudServerUris: function() {
-        return CB.Vq.V11z() ? ["wss://cloudserver.chessbase.com:6008"] : ["ws://cloudserver.chessbase.com:7000"]
+    //    return CB.Vq.V11z() ? ["wss://cloudserver.chessbase.com:6008"] : ["ws://cloudserver.chessbase.com:7000"]
     },
     getAccountUris: function() {
         return CB.Vq.V11z() ? ["https://127.0.0.1/users/"] : ["http://127.0.0.1/users/"]
