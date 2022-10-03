@@ -1,6 +1,8 @@
 # Fritz
 Fritz is the world’s first chess program to run in a browser, so no installation required! one click is all it takes to set the board up and you can start playing or analyzing right away. 
 
+#### NOTE: this is a port of http://fritz.chessbase.com for javascript
+
 ![preview](https://github.com/HorizonEffect/Fritz/blob/main/Content/Fritz/images/fritz2d_en.jpg)
 
 ## FUN WITH FRITZ
