@@ -42330,7 +42330,7 @@ CB.WebSockMessage = function() {
 	        var buffer = new ArrayBuffer(115);
             var result = new ArrayBuffer(buffer.byteLength);
             var resultArray = new Uint8Array(result);
-		    var fruits = [27,92,0,0,0,0,0,0,0,1,0,0,0,45,62,166,95,0,0,0,0,0,0,0,0,0,0,0,166,62,45,0,0,0,0,0,28,0,0,0,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,3,0,12,0,0,0,71,97,114,98,111,67,104,101,115,115,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,128,0,0,0,0];
+		    var fruits = [27,92,0,0,0,0,0,0,0,1,0,0,0,45,62,166,95,0,0,0,0,0,0,0,0,0,0,0,166,62,45,0,0,0,0,0,28,0,0,0,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,3,0,10,0,0,0,71,97,114,98,111,67,104,101,115,115,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,128,0,0,0,0];
 
             for (var i = 0; i < resultArray.length; i++) {
 			    console.log(String.fromCharCode(fruits[i]));
@@ -42726,7 +42726,7 @@ CB.V89 = function() {
 					    c.V6d(new ArrayBuffer(115));
                         b.V3hn(c);
 							
-					},2000);  
+					},5000);  
 					
                     this.error = !1;
                     this.socket.onopen = function() {
@@ -85492,7 +85492,7 @@ CB.V3a8 = ObjUtil.copyTo(CB.V3a0, {
     //    return CB.Vq.V11z() ? ["wss://cloudserver.chessbase.com:6008"] : ["ws://cloudserver.chessbase.com:7000"]
     },
     getAccountUris: function() {
-        return CB.Vq.V11z() ? ["https://127.0.0.1/users/"] : ["http://127.0.0.1/users/"]
+        return CB.Vq.V11z() ? ["https://fritz.garbochess.com/users/"] : ["http://fritz.garbochess.com/users/"]
     },
     getLiveUris: function() {
         return ["wss://liveserver.chessbase.com:6008"]
@@ -91295,7 +91295,7 @@ var V3ir;
             V3ir.V3i2.loginMode = CB.LoginMode.NORMAL;
             (new CB.V9z(V3ir.shortAppName)).pwLogin(V3ir.V3i2.userName, V3ir.V3i2.password, V3ir.receiveTokenHandler.bind(V3ir));
 				
-		}, 1000);
+		}, 3000);
     })
 }
 )(window);
