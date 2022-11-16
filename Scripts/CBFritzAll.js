@@ -85492,7 +85492,7 @@ CB.V3a8 = ObjUtil.copyTo(CB.V3a0, {
     //    return CB.Vq.V11z() ? ["wss://cloudserver.chessbase.com:6008"] : ["ws://cloudserver.chessbase.com:7000"]
     },
     getAccountUris: function() {
-        return CB.Vq.V11z() ? ["https://fritz.garbochess.com/users/"] : ["http://fritz.garbochess.com/users/"]
+        return CB.Vq.V11z() ? ["https://127.0.0.1/users/"] : ["http://127.0.0.1/users/"]
     },
     getLiveUris: function() {
         return ["wss://liveserver.chessbase.com:6008"]
