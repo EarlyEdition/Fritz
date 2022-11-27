@@ -15,4 +15,4 @@ Fritz has a fantastic training feature: "Assisted Calculation". During the game,
 
 ## PLAY OUT THE POSITION!
 
-Practice makes perfect! You can play a position of your choice against Fritz - for example, from one of your favourite openings, and test how well you understand the position. Naturally, you can also save or download your game against Fritz. 
+Practice makes perfect! You can play a position of your choice against Fritz - for example, from one of your favourite openings, and test how well you understand the position. Naturally, you can also save or download your game against Fritz.
